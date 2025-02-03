@@ -1,0 +1,22 @@
+Request Headers:
+- Content-Type: application/json
+  (Indicates that the request body format is JSON)
+
+- Authorization: Bearer <your-token>
+  (This header is used to send an authorization token for accessing protected resources)
+
+- User-Agent: PostmanRuntime/7.28.4
+  (Identifies the client application that sent the request)
+
+Response Headers:
+- Content-Type: application/json; charset=UTF-8
+  (Indicates that the response body is in JSON format and uses UTF-8 character encoding)
+
+- X-Content-Type-Options: nosniff
+  (Prevents browsers from interpreting the response as a different content type)
+
+- Cache-Control: no-cache
+  (Indicates that the response should not be cached)
+
+- Date: Fri, 02 Feb 2025 12:34:56 GMT
+  (The date and time when the response was sent)
